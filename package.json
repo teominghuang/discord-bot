@@ -1,0 +1,23 @@
+{
+  "name": "studytogetherbot",
+  "version": "1.0.0",
+  "description": " ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "studybot",
+    "study",
+    "discord",
+    "discordjs",
+    "nodejs",
+    "revision",
+    "forest"
+  ],
+  "author": "Teo Ming Huang or Glendon \\ <benandglendon@gmail.com\\> (website)",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  }
+}
