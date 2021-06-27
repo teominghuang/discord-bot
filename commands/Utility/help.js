@@ -1,4 +1,4 @@
-const { prefix } = require('../../config.json');
+ const { prefix } = require('../../config.json');
 
 module.exports = {
 	//Sends a private message to the user on the list of commands or info about a command, preventing server spam
