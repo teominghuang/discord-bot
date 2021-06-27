@@ -1,12 +1,13 @@
-/*module.exports = {
+//Function that allows user to leave voice channel using command
+module.exports = {
     name: 'leave',
-    description: 'stop the bot and leave the channel',
+    description: 'This command stops the music bot and makes it leave the channel.',
     async execute(message, args) {
         const voiceChannel = message.member.voice.channel;
- 
-        if(!voiceChannel) return message.channel.send("You need to be in a voice channel to stop the music!");
-        await voiceChannel.leave();
-        await message.channel.send('Leaving channel :smiling_face_with_tear:')
- 
+        
+        //If user is not in a voice channel, returns print message
+        if(!voiceChannel) return message.channel.send("You can only stop the music in a voice channel!");
+        await voiceChannel.leave(); //Force bot to leave the voice channel
+        await message.channel.send('Leaving channel now :smiling_face_with_tear:') //Send discord message
     }
-}*/
+}
